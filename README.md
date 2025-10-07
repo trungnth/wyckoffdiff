@@ -36,14 +36,21 @@ If you have any questions or issues, please feel free to open an issue, or send 
 ## Citation
 If you have used this code, please cite the WyckoffDiff paper
 ```
-@inproceedings{
-      kelvinius2025wyckoffdiff,
-      title={WyckoffDiff -- A Generative Diffusion Model for Crystal Symmetry},
-      author={Filip Ekstr{\"o}m Kelvinius and Oskar B. Andersson and Abhijith S Parackal and Dong Qian and Rickard Armiento and Fredrik Lindsten},
-      booktitle={Forty-second International Conference on Machine Learning},
-      year={2025},
-      url={https://openreview.net/forum?id=OHPBPveXdg}
+@InProceedings{pmlr-v267-ekstrom-kelvinius25a,
+  title = 	 {{W}yckoff{D}iff – A Generative Diffusion Model for Crystal Symmetry},
+  author =       {Ekstr\"{o}m Kelvinius, Filip and Andersson, Oskar B. and Parackal, Abhijith S and Qian, Dong and Armiento, Rickard and Lindsten, Fredrik},
+  booktitle = 	 {Proceedings of the 42nd International Conference on Machine Learning},
+  pages = 	 {15130--15147},
+  year = 	 {2025},
+  editor = 	 {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  volume = 	 {267},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--19 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v267/main/assets/ekstrom-kelvinius25a/ekstrom-kelvinius25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v267/ekstrom-kelvinius25a.html},
 }
+
 ```
 
 ## License
