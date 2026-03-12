@@ -307,7 +307,6 @@ def enrich_dataset(
     return dataset
 
 
-# SUGGEST REMOVE
 def compare_generated_with_training_dataset_fast_label_list(
     generated_dataset: list[list[int, str, str]],
     training_dataset: list[str],

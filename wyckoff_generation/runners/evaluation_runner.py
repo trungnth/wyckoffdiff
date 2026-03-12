@@ -28,7 +28,7 @@ class EvaluationRunner(BaseRunner):
         pass
 
     def load_checkpoint(self, config):
-        raise NotImplementedError
+        pass
 
     def run(self):
         folder = self.compute_fwd(self.config)
