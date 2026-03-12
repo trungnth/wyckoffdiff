@@ -28,7 +28,7 @@ python main.py --mode generate --num_samples [num_samples] --load [path/to/param
 ### Evaluate
 To evaluate the generated samples, a minimal example is (here assuming WBM is the reference set)
 ```
-python main.py --mode evaluate --train_datafile data/wbm/raw/wbm_train.csv --generated_datafile [PATH/TO/GENERATED_SAMPLES.pt]
+python main.py --mode evaluate --train_datafile data/wbm/raw/wbm_train.csv --generated_datafile [path/to/generated_samples.pt]
 ```
 This will default to using 10k samples (from both the generated and reference/train set) when computing all metrics. If you prefer another number, this can be set with `--num_samples_in_evaluation`.
 
