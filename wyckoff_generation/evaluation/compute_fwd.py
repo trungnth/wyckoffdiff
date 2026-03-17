@@ -67,12 +67,14 @@ def main(args):
         input_col="protostructures",
         batch_size=args["batch_size"],
         shuffle=False,
+        device=args["device"],
     )
     train_data_fwd = df_to_in_mem_dataloader(
         train_data_df_subsampled,
         input_col="wyckoff",
         batch_size=args["batch_size"],
         shuffle=False,
+        device=args["device"],
     )
 
     state_dict = torch.load("evaluation_checkpoint/checkpoint.pth", map_location="cpu")
@@ -108,6 +110,7 @@ def main(args):
         input_col="protostructures",
         batch_size=args["batch_size"],
         shuffle=False,
+        device=args["device"],
     )
 
     gen_novel_embeddings = get_embeddings(model, gen_data_novel_fwd).double()
