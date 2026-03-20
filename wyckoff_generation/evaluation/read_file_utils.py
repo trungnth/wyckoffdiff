@@ -1,4 +1,6 @@
+import time
 import warnings
+from concurrent.futures import ProcessPoolExecutor
 
 import pandas as pd
 import torch
@@ -45,10 +47,6 @@ def _safe_build(d):
     except ValueError:
         print("Error with material, skipping")
         return None
-
-
-import time
-from concurrent.futures import ProcessPoolExecutor
 
 
 def data_from_wyckoffdiff_list(data):
